@@ -79,10 +79,34 @@ img {
     background-color: coral;
 }
 
-.guide-section img {
-    margin-bottom: 10px;
+.guide-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    justify-content: space-between;
+    width: 100%;
 }
 
+.guide-text {
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.guide-image {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-quote {
+    font-size: small;
+    font-style: italic;
+}
 
 button {
     padding: 8px 20px;
