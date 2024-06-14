@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero-section {
+    width: 400px;
+    margin: 0 auto;
+    background: url(images/abujamainpic.jpeg);
+    background-size: cover;
+}
